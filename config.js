@@ -1,25 +1,25 @@
 'use strict';
-const plugins = require('./plugins')
+const plugins = require('./plugins');
 const reactAppConfig = require('eslint-config-react-app');
 
 const rules = {};
 
 // Is the rule part of an eslint plugin?
-const isPluginRule = (ruleName) => {
+const isPluginRule = ruleName => {
   for (const plugin of plugins) {
     if (ruleName.indexOf(`${plugin}/`) !== -1) {
-      return true
+      return true;
     }
   }
-  return false
-}
+  return false;
+};
 
 // Renames the plugins rules prefixing them with 'react-app'
-Object.keys(reactAppConfig.rules).forEach((ruleName) => {
+Object.keys(reactAppConfig.rules).forEach(ruleName => {
   if (isPluginRule(ruleName)) {
-    rules[`react-app/${ruleName}`] = reactAppConfig.rules[ruleName]
+    rules[`react-app/${ruleName}`] = reactAppConfig.rules[ruleName];
   } else {
-    rules[ruleName] = reactAppConfig.rules[ruleName]
+    rules[ruleName] = reactAppConfig.rules[ruleName];
   }
 });
 
