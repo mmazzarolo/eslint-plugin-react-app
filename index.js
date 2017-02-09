@@ -1,15 +1,10 @@
 'use strict';
-const config = require('eslint-config-react-app');
-
-const plugins = [
-  'import',
-  'flowtype',
-  'jsx-a11y',
-  'react'
-];
+const plugins = require('./plugins')
+const config = require('./config');
 
 const rules = {};
 
+// Requires and sets the rules of the eslint-plugins used by create-react-app. 
 plugins.forEach((pluginName) => {
   const plugin = require(`eslint-plugin-${pluginName}`);
   Object.keys(plugin.rules).forEach((ruleName) => {

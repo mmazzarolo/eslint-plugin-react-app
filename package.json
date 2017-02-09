@@ -1,10 +1,11 @@
 {
   "name": "eslint-plugin-react-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint configuration used by Create React App",
   "files": [
     "config.js",
-    "index.js"
+    "index.js",
+    "plugins.js"
   ],
   "dependencies": {
     "babel-eslint": "^7.1.1",
