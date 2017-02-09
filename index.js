@@ -1,13 +1,13 @@
 'use strict';
-const plugins = require('./plugins')
 const config = require('./config');
+const plugins = require('./plugins');
 
 const rules = {};
 
-// Requires and sets the rules of the eslint-plugins used by create-react-app. 
-plugins.forEach((pluginName) => {
+// Requires and sets the rules of the eslint-plugins used by create-react-app.
+plugins.forEach(pluginName => {
   const plugin = require(`eslint-plugin-${pluginName}`);
-  Object.keys(plugin.rules).forEach((ruleName) => {
+  Object.keys(plugin.rules).forEach(ruleName => {
     rules[`${pluginName}/${ruleName}`] = plugin.rules[ruleName];
   });
 });
