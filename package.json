@@ -4,7 +4,11 @@
   "description": "ESLint configuration used by Create React App",
   "repository": "mmazzarolo/eslint-plugin-react-app",
   "license": "MIT",
-  "files": ["config.js", "index.js", "plugins.js"],
+  "files": [
+    "config.js",
+    "index.js",
+    "plugins.js"
+  ],
   "dependencies": {
     "babel-eslint": "^8.0.2",
     "eslint-plugin-flowtype": "^2.34.1",
