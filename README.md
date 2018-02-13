@@ -52,6 +52,6 @@ You can momentarily silence it by turning off the following eslint rule:
 }
 ```
 
-## Notes  
+## Acknowledgements  
 Thanks to [fson](https://github.com/fson) and its [Create React App pull request](https://github.com/facebookincubator/create-react-app/pull/993) for the initial idea of this plugin.  
 And obviously thanks to [gaeron](https://github.com/gaearon) and everyone who contributed to Create React App.  
