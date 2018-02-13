@@ -4,13 +4,10 @@
   "description": "ESLint configuration used by Create React App",
   "repository": "mmazzarolo/eslint-plugin-react-app",
   "license": "MIT",
-  "files": [
-    "config.js",
-    "index.js",
-    "plugins.js"
-  ],
+  "files": ["config.js", "index.js", "plugins.js"],
   "dependencies": {
     "babel-eslint": "^8.0.2",
+    "eslint-config-react-app": "^2.1.0",
     "eslint-plugin-flowtype": "^2.34.1",
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
@@ -25,9 +22,6 @@
     "prettier": "^1.10.2"
   },
   "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write",
-      "git add"
-    ]
+    "src/**/*.js": ["prettier --write", "git add"]
   }
 }
