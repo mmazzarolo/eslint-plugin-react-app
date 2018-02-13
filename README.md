@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/eslint-plugin-react-app.svg)](https://badge.fury.io/js/eslint-plugin-react-app)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) 
 
 # eslint-plugin-react-app
 This plugin exposes the ESLint configuration used by Create React App without the need of declaring all its dependencies.  
