@@ -1,6 +1,6 @@
-'use strict';
-const plugins = require('./plugins');
-const reactAppConfig = require('eslint-config-react-app');
+"use strict";
+const plugins = require("./plugins");
+const reactAppConfig = require("eslint-config-react-app");
 
 const rules = {};
 
@@ -24,11 +24,11 @@ Object.keys(reactAppConfig.rules).forEach(ruleName => {
 });
 
 module.exports = {
-  parser: require.resolve('babel-eslint'),
-  plugins: ['react-app'],
+  parser: require.resolve("babel-eslint"),
+  plugins: ["react-app"],
   rules,
   settings: reactAppConfig.settings,
   env: reactAppConfig.env,
   root: reactAppConfig.root,
-  parserOptions: reactAppConfig.parserOptions,
+  parserOptions: reactAppConfig.parserOptions
 };

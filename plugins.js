@@ -1,3 +1,3 @@
-'use strict';
+"use strict";
 
-module.exports = ['import', 'flowtype', 'jsx-a11y', 'react'];
+module.exports = ["import", "flowtype", "jsx-a11y", "react"];

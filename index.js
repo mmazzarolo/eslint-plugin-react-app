@@ -1,6 +1,6 @@
-'use strict';
-const config = require('./config');
-const plugins = require('./plugins');
+"use strict";
+const config = require("./config");
+const plugins = require("./plugins");
 
 const rules = {};
 
@@ -14,7 +14,7 @@ plugins.forEach(pluginName => {
 
 module.exports = {
   configs: {
-    recommended: config,
+    recommended: config
   },
-  rules,
+  rules
 };
