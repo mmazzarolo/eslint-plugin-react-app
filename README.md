@@ -42,7 +42,7 @@ The currently included create-react-app plugins are the following:
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ## Known issues
-Until [this PR](https://github.com/facebook/create-react-app/commit/bf02edbef2a20ff8af66b396d7ee6ae7901c45a0#diff-99286e999408ee6352bf548c6f8cb9fc) is released on `eslint-config-react-app` you'll get an eslint warning on a missing rule definition (`react-app/jsx-a11y/href-no-hash`).  
+Until [this PR](https://github.com/facebook/create-react-app/commit/bf02edbef2a20ff8af66b396d7ee6ae7901c45a0#diff-99286e999408ee6352bf548c6f8cb9fc) is officially released on `eslint-config-react-app` you'll get an eslint warning on a missing rule definition (`react-app/jsx-a11y/href-no-hash`).  
 You can momentarily silence it by turning off the following eslint rule: 
 ```
 {
@@ -55,4 +55,4 @@ You can momentarily silence it by turning off the following eslint rule:
 
 ## Acknowledgements  
 Thanks to [fson](https://github.com/fson) and its [Create React App pull request](https://github.com/facebookincubator/create-react-app/pull/993) for the initial idea of this plugin.  
-And obviously thanks to [gaeron](https://github.com/gaearon) and everyone who contributed to Create React App.  
+Thanks to [gaeron](https://github.com/gaearon) and everyone who contributed to Create React App.  
