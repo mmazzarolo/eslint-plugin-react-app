@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/eslint-plugin-react-app.svg)](https://badge.fury.io/js/eslint-plugin-react-app)
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) 
 
 # eslint-plugin-react-app
 This plugin exposes the ESLint configuration used by Create React App without the need of declaring all its dependencies.  
@@ -40,6 +41,18 @@ The currently included create-react-app plugins are the following:
 - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
-## Notes  
+## Known issues
+Until [this PR](https://github.com/facebook/create-react-app/commit/bf02edbef2a20ff8af66b396d7ee6ae7901c45a0#diff-99286e999408ee6352bf548c6f8cb9fc) is officially released on `eslint-config-react-app` you'll get an eslint warning on a missing rule definition (`react-app/jsx-a11y/href-no-hash`).  
+You can momentarily silence it by turning off the following eslint rule: 
+```
+{
+  "extends": ["plugin:react-app/recommended"],
+  "rules": {
+    "react-app/jsx-a11y/href-no-hash": "off"
+  }
+}
+```
+
+## Acknowledgements  
 Thanks to [fson](https://github.com/fson) and its [Create React App pull request](https://github.com/facebookincubator/create-react-app/pull/993) for the initial idea of this plugin.  
-And obviously thanks to [gaeron](https://github.com/gaearon) and everyone who contributed to Create React App.  
+Thanks to [gaeron](https://github.com/gaearon) and everyone who contributed to Create React App.  
