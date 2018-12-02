@@ -6,6 +6,10 @@ This plugin exposes the ESLint configuration used by Create React App without th
 Use it if you need a simple and tested ESLint configuration without the need of installing a bunch of dependecies.  
 It also works in React Native out of the box.  
 
+## Disclaimer
+This project is not officially maintained (nor officially "supported") by the Create React App team.  
+Let me know if you discover any issue.  
+
 ## Setup
 1. Install it using npm: `npm install --development eslint eslint-plugin-react-app`.
 2. Extend `plugin:react-app/recommended` in your `.eslintrc`.  
