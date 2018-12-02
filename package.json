@@ -1,14 +1,10 @@
 {
   "name": "eslint-plugin-react-app",
-  "version": "4.0.0",
+  "version": "4.0.0-beta.1",
   "description": "ESLint configuration used by Create React App",
   "repository": "mmazzarolo/eslint-plugin-react-app",
   "license": "MIT",
-  "files": [
-    "config.js",
-    "index.js",
-    "plugins.js"
-  ],
+  "files": ["config.js", "index.js", "plugins.js"],
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "eslint-config-react-app": "^3.0.5",
