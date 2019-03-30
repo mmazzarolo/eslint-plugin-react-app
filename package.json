@@ -24,6 +24,6 @@
     "eslint": "5.x"
   },
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.16.4"
   }
 }
