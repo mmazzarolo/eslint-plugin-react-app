@@ -48,6 +48,7 @@ The currently included create-react-app plugins are the following:
 - [eslint-plugin-flowtype](https://github.com/gajus/eslint-plugin-flowtype)
 - [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
 - [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint)
 
 ## Acknowledgements
 
