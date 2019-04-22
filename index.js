@@ -5,10 +5,10 @@ const plugins = require("./plugins");
 const rules = {};
 
 // Requires and sets the rules of the eslint-plugins used by create-react-app.
-plugins.forEach(pluginName => {
-  const plugin = require(`eslint-plugin-${pluginName}`);
-  Object.keys(plugin.rules).forEach(ruleName => {
-    rules[`${pluginName}/${ruleName}`] = plugin.rules[ruleName];
+plugins.forEach(plugin => {
+  const pluginModule = require(plugin.name);
+  Object.keys(pluginModule.rules).forEach(ruleName => {
+    rules[`${plugin.rulePrefix}/${ruleName}`] = pluginModule.rules[ruleName];
   });
 });
 

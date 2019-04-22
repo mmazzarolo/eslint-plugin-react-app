@@ -7,7 +7,7 @@ const rules = {};
 // Is the rule part of an eslint plugin?
 const isPluginRule = ruleName => {
   for (const plugin of plugins) {
-    if (ruleName.indexOf(`${plugin}/`) !== -1) {
+    if (ruleName.indexOf(`${plugin.rulePrefix}/`) !== -1) {
       return true;
     }
   }
@@ -30,5 +30,6 @@ module.exports = {
   settings: reactAppConfig.settings,
   env: reactAppConfig.env,
   root: reactAppConfig.root,
-  parserOptions: reactAppConfig.parserOptions
+  parserOptions: reactAppConfig.parserOptions,
+  overrides: reactAppConfig.overrides
 };
