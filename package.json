@@ -13,7 +13,7 @@
     "@typescript-eslint/eslint-plugin": "1.x",
     "@typescript-eslint/parser": "1.x",
     "babel-eslint": "10.x",
-    "eslint-config-react-app": "4.0.0-next.74",
+    "eslint-config-react-app": "4.0.0",
     "eslint-plugin-flowtype": "2.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
