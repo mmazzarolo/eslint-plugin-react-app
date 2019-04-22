@@ -31,39 +31,5 @@ module.exports = {
   env: reactAppConfig.env,
   root: reactAppConfig.root,
   parserOptions: reactAppConfig.parserOptions,
-  // While waiting for the "Add TypeScript linting support" PR to be released
-  // in eslint-config-react-app we'll manually specify its changes here.
-  // See https://github.com/facebook/create-react-app/pull/6513/files
-  overrides: {
-    files: ["**/*.ts", "**/*.tsx"],
-    parser: "@typescript-eslint/parser",
-    parserOptions: {
-      ecmaVersion: 2018,
-      sourceType: "module",
-      ecmaFeatures: {
-        jsx: true
-      },
-      warnOnUnsupportedTypeScriptVersion: true
-    },
-    plugins: ["@typescript-eslint"],
-    rules: {
-      // These ESLint rules are known to cause issues with typescript-eslint
-      // See https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/configs/recommended.json
-      camelcase: "off",
-      indent: "off",
-      "no-array-constructor": "off",
-      "no-unused-vars": "off",
-
-      "@typescript-eslint/no-angle-bracket-type-assertion": "warn",
-      "@typescript-eslint/no-array-constructor": "warn",
-      "@typescript-eslint/no-namespace": "error",
-      "@typescript-eslint/no-unused-vars": [
-        "warn",
-        {
-          args: "none",
-          ignoreRestSiblings: true
-        }
-      ]
-    }
-  }
+  overrides: reactAppConfig.overrides
 };
