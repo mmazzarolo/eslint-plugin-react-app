@@ -1,9 +1,8 @@
 [![npm version](https://badge.fury.io/js/eslint-plugin-react-app.svg)](https://badge.fury.io/js/eslint-plugin-react-app)
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 # eslint-plugin-react-app
 
-This plugin exposes the ESLint configuration used by Create React App without the need of declaring all its dependencies.  
+This plugin exposes [the ESLint configuration used by Create React App](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) without the need of declaring all its dependencies.  
 Use it if you need a simple and tested ESLint configuration without the need of installing a bunch of dependecies.  
 It also works in React Native out of the box.
 
