@@ -3,7 +3,7 @@
 # eslint-plugin-react-app
 
 This plugin exposes [the ESLint configuration used by Create React App](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) without the need of declaring all its dependencies.  
-Use it if you need a simple and tested ESLint configuration without the need of installing a bunch of dependecies.  
+Use it if you need a simple and tested ESLint configuration without the need of installing a bunch of dependencies.  
 It also works in React Native out of the box.
 
 ## Disclaimer
