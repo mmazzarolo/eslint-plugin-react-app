@@ -2,14 +2,11 @@
 
 # eslint-plugin-react-app
 
+A minimal set of easy to install ESLint rules for your project.
+
 This plugin exposes [the ESLint configuration used by Create React App](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) without the need of declaring all its dependencies.  
-Use it if you need a simple and tested ESLint configuration without the need of installing a bunch of dependencies.  
+Use it if you need a simple and tested ESLint configuration but you don't want to install a bunch of dependencies.  
 It also works in React Native out of the box.
-
-## Disclaimer
-
-This project is not officially maintained (nor officially "supported") by the Create React App team.  
-Let me know if you discover any issue.
 
 ## Setup
 
@@ -53,3 +50,7 @@ The currently included create-react-app plugins are the following:
 
 Thanks to [fson](https://github.com/fson) and its [Create React App pull request](https://github.com/facebookincubator/create-react-app/pull/993) for the initial idea of this plugin.  
 Thanks to [gaeron](https://github.com/gaearon) and everyone who contributed to Create React App.
+
+## Disclaimer
+
+This project is not officially maintained (nor officially "supported") by the Create React App team.
