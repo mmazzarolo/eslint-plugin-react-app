@@ -12,15 +12,15 @@
     "@typescript-eslint/eslint-plugin": "1.x",
     "@typescript-eslint/parser": "1.x",
     "babel-eslint": "10.x",
-    "eslint-config-react-app": "4.0.1",
-    "eslint-plugin-flowtype": "2.x",
+    "eslint-config-react-app": "5.0.0",
+    "eslint-plugin-flowtype": "3.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.x"
   },
   "peerDependencies": {
-    "eslint": "5.x"
+    "eslint": "6.x"
   },
   "devDependencies": {
     "prettier": "^1.17.0"

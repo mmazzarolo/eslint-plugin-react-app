@@ -24,7 +24,7 @@ Object.keys(reactAppConfig.rules).forEach(ruleName => {
 });
 
 module.exports = {
-  parser: require.resolve("babel-eslint"),
+  parser: reactAppConfig.parser,
   plugins: ["react-app"],
   rules,
   settings: reactAppConfig.settings,
