@@ -21,7 +21,7 @@ Example `.eslintrc`:
 }
 ```
 
-## Configuring the rules
+## Configuring the rules (optional)
 
 You can configure the rules like every other plugin.
 Just keep in mind that if you want to change a rule of an included plugin (for example of `eslint-plugin-react`) you must prefix the rule with `react-app/` (for preventing namespace collisions).  
