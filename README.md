@@ -2,7 +2,7 @@
 
 # eslint-plugin-react-app
 
-A minimal set of easy to install ESLint rules for your project: just install a single NPM package add it to your `.eslintrc` and you'll be all set.  
+A minimal set of easy to install ESLint rules for your project: just install a single NPM package, add it to your `.eslintrc`, and you'll be all set.  
 
 > This plugin exposes [the ESLint configuration used by Create React App](https://github.com/facebook/create-react-app/tree/master/packages/eslint-config-react-app) without the need of declaring all its dependencies.  
 Use it if you need a simple and tested ESLint configuration but you don't want to install a bunch of dependencies.  
@@ -21,10 +21,11 @@ Example `.eslintrc`:
 }
 ```
 
+3. You're done!
+
 ## Configuring the rules (optional)
 
-You can configure the rules like every other plugin.
-Just keep in mind that if you want to change a rule of an included plugin (for example of `eslint-plugin-react`) you must prefix the rule with `react-app/` (for preventing namespace collisions).  
+If you want to change a rule of an included plugin (for example of `eslint-plugin-react`) you must prefix the rule with `react-app/` (for preventing namespace collisions).  
 For example:
 
 ```json
