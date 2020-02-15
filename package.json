@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-app",
-  "version": "6.2.0",
+  "version": "6.2.1",
   "description": "ESLint configuration used by Create React App",
   "repository": "mmazzarolo/eslint-plugin-react-app",
   "license": "MIT",
