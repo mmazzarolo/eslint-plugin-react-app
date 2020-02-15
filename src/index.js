@@ -15,7 +15,7 @@ plugins.forEach(plugin => {
     // If the user doesn't have typescript installed skip the @typescript-eslint
     // rules setup. The other JS rules will still work correctly.
     const isTypescriptMissing =
-      err.message === `Cannot find module 'typescript'` &&
+      err.message.indexOf(`Cannot find module 'typescript'`) > -1 &&
       plugin.rulePrefix === "@typescript-eslint"
     if (!isTypescriptMissing) {
       throw err
