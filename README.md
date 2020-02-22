@@ -37,6 +37,20 @@ For example:
 }
 ```
 
+## Adding Prettier (optional)
+
+This plugin works nicely with [Prettier](https://prettier.io/).  
+Install it with `npm install --development prettier eslint-config-prettier eslint-plugin-prettier`.   
+And setup your `.eslintrc` like so:  
+
+```json
+{
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "plugins": ["prettier"]
+}
+
+```
+
 ## Included plugins  
 
 The currently included create-react-app plugins are the following:
