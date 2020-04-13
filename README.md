@@ -23,7 +23,7 @@ Example `.eslintrc`:
 
 3. You're done!
 
-## Configuring the rules (optional)
+## Optional - Configuring the rules
 
 If you want to change a rule of an included plugin (for example of `eslint-plugin-react`) you must prefix the rule with `react-app/` (for preventing namespace collisions).  
 For example:
@@ -37,11 +37,11 @@ For example:
 }
 ```
 
-## Adding Prettier (optional)
+## Optional - Adding Prettier
 
-This plugin works nicely with [Prettier](https://prettier.io/).  
+This plugin works nicely alongside [Prettier](https://prettier.io/).  
 Install it with `npm install --development prettier eslint-config-prettier eslint-plugin-prettier`.   
-And setup your `.eslintrc` like so:  
+And setup your `.eslintrc` this way:  
 
 ```json
 {
