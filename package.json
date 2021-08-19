@@ -17,7 +17,7 @@
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "1.x || 2.x"
+    "eslint-plugin-react-hooks": "^4.2.0"
   },
   "peerDependencies": {
     "eslint": "6.x"
